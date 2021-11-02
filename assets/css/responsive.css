@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+	/*Menu*/
+	.header-section .nav-toggle {
+		display: unset;
+		text-align: right;
+	}
+	.header-section .navbar-toggler {
+		border-color: #FFFFFF;
+	}
+	.header-section .navbar {
+		background-color: #1c9546 !important;
+	}
+	.header-section #navbarNavDropdown {
+		margin-top: 10px;
+	}
+	.header-section .navbar-nav {
+		text-align: center;
+	}
+	.header-section .navbar-nav .nav-link {
+		display: block;
+		margin-left: 0;
+	}
+
+	/*Index*/
+	.ft-img-section .ft-text {
+		margin-top: 20px
+	}
+
+	/*Footer*/
+	.footer-section {
+		margin-top: 40px;
+	}
+	.footer-section .footer-top {
+		width: 220px;
+		bottom: 3%;
+	}
+	.footer-section .footer-top .name span {
+		font-size: 16px;
+	}
+	.footer-section .footer-top .address span,
+	.footer-section .footer-top .web a {
+		font-size: 14px;
+		letter-spacing: 0;
+	}
+	
+	.footer-bottom {
+		bottom: 0;
+		right: 20px;
+	}
+	.footer-bottom a {
+		font-size: 9px;
+	}
+}
+
+@media (max-width: 414px) {}
+
+/*Large screen*/
+@media (min-width: 1920px) {
+	.footer-section .footer-top {
+		bottom: 14%;
+	}
+	.footer-section .footer-top .name span {
+		font-size: 24px;
+	}
+	.footer-section .footer-top .address span,
+	.footer-section .footer-top .web a {
+		font-size: 20px;
+		letter-spacing: 1.5px;
+	}
+}

@@ -1,0 +1,97 @@
+/*Global*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.mt-30 {
+	margin-top: 30px;
+}
+button:focus {
+	outline:0px !important; 
+    box-shadow: none !important;
+}
+a {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+/* colors */
+.text-lightgray {
+	color: #808080;
+}
+.text-green {
+	color: #1c9546;
+}
+
+/*Header*/
+.header-section .navbar-nav .nav-link {
+	background-color: #1c9546;
+	color: #FFFFFF !important;
+	display: unset;
+	margin: 0 10px;
+	padding: 10px 30px;
+	text-transform: uppercase;
+}
+.header-section .navbar-nav .nav-link:hover {
+	background-color: green;
+	transition: .2s ease;
+}
+.header-section .navbar-nav .active {
+	background-color: darkgreen;
+}
+
+/*Main*/
+/*Index*/
+.main-section .list .fa-circle {
+	font-size: 12px;
+}
+
+/*Contact us*/
+.main-section .contact-form form {
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+/*Footer*/
+
+.footer-section {
+	position: relative;
+}
+.footer-section .footer-top {
+	position: absolute;
+	bottom: 55px;
+	left: 50%;-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+
+.footer-section span {
+	color: #47484a;
+}
+.footer-section .footer-top .name span {
+	font-size: 20px;
+	border-bottom: 2px solid #009448;
+	padding: 2px 40px;
+}
+.footer-section .footer-top .address span {
+	font-size: 18px;
+	letter-spacing: 1.5px;
+}
+.footer-section .footer-top .web a {
+	color: #009448;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+}
+
+.footer-bottom {
+	position: absolute;
+	bottom: 15px;
+	right: 50px;
+}
+.footer-bottom a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+}
